@@ -9,8 +9,8 @@ def comprobarPalindormo(frase):
     fraseOriginal = list(fraseOriginal.lower())
     frase = list(frase.lower())
     frase.reverse()
-    frase = [letra for letra in frase if letra not in [" ", ","]]
-    fraseOriginal = [letra for letra in fraseOriginal if letra not in [" ", ","]]
+    frase = [letra for letra in frase if letra not in [" ", ",", ".", ";", ":"]]
+    fraseOriginal = [letra for letra in fraseOriginal if letra not in [" ", ",", ".", ";", ":"]]
     if fraseOriginal == frase:
         return True
     else:
