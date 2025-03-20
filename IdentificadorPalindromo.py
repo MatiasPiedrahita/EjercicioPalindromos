@@ -21,6 +21,6 @@ fraseSinModificar = frase
 frase = quitar_tildes(frase)
 esPalindormo = comprobarPalindormo(frase)
 if esPalindormo == True:
-    print(f"La frase {fraseSinModificar} se escribe igual de izquierda a derecha y de derecha a izquierda, por lo tanto es un palindromo")
+    print(f"La frase ´{fraseSinModificar}´ se escribe igual de izquierda a derecha y de derecha a izquierda, por lo tanto es un palindromo")
 else:
-    print(f"La frase {fraseSinModificar} NO se escribe igual de izquierda a derecha y de derecha a izquierda, por lo tanto NO es un palindromo")
+    print(f"La frase ´{fraseSinModificar}´ NO se escribe igual de izquierda a derecha y de derecha a izquierda, por lo tanto NO es un palindromo")
